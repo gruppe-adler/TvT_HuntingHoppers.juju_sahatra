@@ -1,7 +1,7 @@
 HOPPERS_BOMBS_BOMBSPOTS = [];
 
-private _bombSpotSelectedCount = 20;
-private _bombSpotPreparedCount = 20; // bombspot markers up to "mrk_bombspot_30" need to be placed
+private _bombSpotSelectedCount = 26/2;
+private _bombSpotPreparedCount = 26; // bombspot markers up to "mrk_bombspot_30" need to be placed
 
 private _arraySelectFrom = [];
 

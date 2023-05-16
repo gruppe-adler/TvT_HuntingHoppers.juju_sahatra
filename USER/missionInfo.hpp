@@ -19,23 +19,15 @@ class cfgMission {
 };
 
 class GRAD_vehicleRespawn {
-    class gm_ge_army_bo105p1m_vbh_swooper {
+    class RHS_MELB_MH6M {
         customCode = "(_this select 0) addMagazineCargoGlobal ['gm_30Rnd_556x45mm_B_DM11_g36_blk', 20]; (_this select 0) addMagazineCargoGlobal ['gm_120Rnd_762x51mm_B_T_DM21_mg3_grn', 20];"; // _this select 0 is the vehicle
     };
 
-    class C_Van_02_transport_F {
+    class UK3CB_TKA_O_GAZ_Vodnik_PKT {
         customCode = "(_this select 0) addMagazineCargoGlobal ['gm_30Rnd_545x39mm_B_7N6_ak74_org', 20]; (_this select 0) addMagazineCargoGlobal ['gm_75Rnd_762x39mm_B_57N231_ak47_blk', 20];"; // _this select 0 is the vehicle
     };
 
-    class C_Offroad_01_F {
-        customCode = "(_this select 0) addMagazineCargoGlobal ['gm_30Rnd_545x39mm_B_7N6_ak74_org', 20]; (_this select 0) addMagazineCargoGlobal ['gm_75Rnd_762x39mm_B_57N231_ak47_blk', 20];"; // _this select 0 is the vehicle
-    };
-
-    class C_Van_01_transport_F {
-        customCode = "(_this select 0) addMagazineCargoGlobal ['gm_30Rnd_545x39mm_B_7N6_ak74_org', 20]; (_this select 0) addMagazineCargoGlobal ['gm_75Rnd_762x39mm_B_57N231_ak47_blk', 20];"; // _this select 0 is the vehicle
-    };
-
-    class C_Offroad_02_unarmed_F {
+    class UK3CB_TKA_O_Tigr_FFV {
         customCode = "(_this select 0) addMagazineCargoGlobal ['gm_30Rnd_545x39mm_B_7N6_ak74_org', 20]; (_this select 0) addMagazineCargoGlobal ['gm_75Rnd_762x39mm_B_57N231_ak47_blk', 20];"; // _this select 0 is the vehicle
     };
 };

@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={7015.395,228.67758,7215.2852};
-		dir[]={0.41587171,-0.31722257,-0.85232842};
-		up[]={0.13911888,0.94834203,-0.28512341};
-		aside[]={-0.89874864,1.0182994e-006,-0.43852213};
+		pos[]={7119.0713,172.51208,7092.2563};
+		dir[]={-0.1468457,-0.37145251,0.91676694};
+		up[]={-0.058749709,0.92845118,0.36677769};
+		aside[]={0.98741347,-2.6615453e-008,0.15816173};
 	};
 };
 binarizationWanted=0;
@@ -10285,7 +10285,7 @@ class Mission
 			};
 			id=900;
 			type="TFAR_NATO_Radio_Crate";
-			atlOffset=0.91181946;
+			atlOffset=0.90429688;
 		};
 		class Item33
 		{
@@ -10590,6 +10590,7 @@ class Mission
 			};
 			id=1029;
 			type="RHS_MELB_MH6M";
+			atlOffset=-0.034942627;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10760,6 +10761,7 @@ class Mission
 			};
 			id=1030;
 			type="RHS_MELB_MH6M";
+			atlOffset=-0.15190125;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -10930,6 +10932,7 @@ class Mission
 			};
 			id=1031;
 			type="RHS_MELB_MH6M";
+			atlOffset=-0.18199158;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11100,6 +11103,7 @@ class Mission
 			};
 			id=1032;
 			type="RHS_MELB_MH6M";
+			atlOffset=-0.20385742;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11261,6 +11265,7 @@ class Mission
 				angles[]={0,2.3038609,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
@@ -11269,7 +11274,7 @@ class Mission
 			};
 			id=1033;
 			type="RHS_MELB_MH6M";
-			atlOffset=0.25482178;
+			atlOffset=0.1464386;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11440,7 +11445,7 @@ class Mission
 			};
 			id=1034;
 			type="RHS_MELB_MH6M";
-			atlOffset=1.5258789e-005;
+			atlOffset=-0.05921936;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11611,6 +11616,7 @@ class Mission
 			};
 			id=1035;
 			type="RHS_MELB_MH6M";
+			atlOffset=-0.33209229;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11781,6 +11787,7 @@ class Mission
 			};
 			id=1036;
 			type="RHS_MELB_MH6M";
+			atlOffset=-0.0089569092;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -11942,6 +11949,7 @@ class Mission
 				angles[]={0,2.3232555,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				lock="UNLOCKED";
@@ -11950,7 +11958,7 @@ class Mission
 			};
 			id=1037;
 			type="RHS_MELB_MH6M";
-			atlOffset=0.26571655;
+			atlOffset=0.04296875;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12162,7 +12170,7 @@ class Mission
 			};
 			id=1043;
 			type="UK3CB_TKA_O_GAZ_Vodnik_PKT";
-			atlOffset=-3.8146973e-006;
+			atlOffset=-2.6702881e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12297,7 +12305,7 @@ class Mission
 			};
 			id=1045;
 			type="UK3CB_TKA_O_Tigr_FFV";
-			atlOffset=-3.8146973e-006;
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12397,7 +12405,7 @@ class Mission
 			};
 			id=1046;
 			type="UK3CB_TKA_O_Tigr_FFV";
-			atlOffset=3.8146973e-006;
+			atlOffset=-7.6293945e-006;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -12486,35 +12494,35 @@ class Mission
 			dataType="Layer";
 			name="Landing Zone #B";
 			id=1084;
-			atlOffset=0.0052032471;
+			atlOffset=-168.64;
 		};
 		class Item71
 		{
 			dataType="Layer";
 			name="Headquarters #B";
 			id=1157;
-			atlOffset=0.0039672852;
+			atlOffset=-168.64;
 		};
 		class Item72
 		{
 			dataType="Layer";
 			name="Camp (NATO)";
 			id=1227;
-			atlOffset=-0.00030517578;
+			atlOffset=-168.64;
 		};
 		class Item73
 		{
 			dataType="Layer";
 			name="Dugout 5";
 			id=1233;
-			atlOffset=0.060394287;
+			atlOffset=-168.64;
 		};
 		class Item74
 		{
 			dataType="Layer";
 			name="Heavy Factory #B";
 			id=1282;
-			atlOffset=-0.0028839111;
+			atlOffset=-168.64;
 		};
 		class Item75
 		{
@@ -13121,6 +13129,7 @@ class Mission
 					};
 					id=1316;
 					type="Land_WaterBarrel_F";
+					atlOffset=0.0032806396;
 				};
 				class Item34
 				{
