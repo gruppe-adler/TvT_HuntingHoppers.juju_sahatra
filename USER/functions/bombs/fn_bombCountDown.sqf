@@ -1,8 +1,9 @@
 // E: Server
 
 params ["_boss"];
-private _position = getPos _boss;
-private _bomb = createVehicle ["IEDLandBig_F", _position, [], 0, "CAN_COLLIDE"];
+private _position = getPosASL _boss;
+private _bomb = createVehicle ["IEDLandBig_F", ASLtoAGL _position, [], 0, "CAN_COLLIDE"];
+
 _boss setVariable ["hoppers_countdownStarted", true, true];
 _bomb setVariable ["hoppers_countdownStarted", true, true];
 _bomb setVariable ["hoppers_countdownBoss", _boss, true];
@@ -32,12 +33,12 @@ private _markers = [_position, _phase] call hoppers_fnc_createBombMarker;
 
 _bomb setVariable ["hoppers_bombMarkers", _markers, true];
 
-for "_i" from (HOPPERS_BOMBS_TIME_TO_EXPLOSION) to 1 step -1 do {
+for "_i" from (HOPPERS_BOMBS_TIME_TO_EXPLOSION) to 0 step -1 do {
     [{
       params ["_i", "_bomb"];
 
       // likely defused or exploded
-      if (_i < 1) exitWith {
+      if (_i < 0) exitWith {
             ["Bomb can be detonated now"] remoteExec ["hintSilent", east];
       };
       private _bombActive = _bomb getVariable ["hoppers_countdownStarted", false];

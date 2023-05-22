@@ -1,10 +1,24 @@
 
+params ["_boss"];
+
+
 private _exfilPositions = [
   getMarkerPos "mrk_exfiltrate_1",
   getMarkerPos "mrk_exfiltrate_2",
   getMarkerPos "mrk_exfiltrate_3",
   getMarkerPos "mrk_exfiltrate_4"
 ];
+
+private _exfilPositionsSorted = [
+  [_boss distance _exfilPositions#0, _exfilPositions#0],
+  [_boss distance _exfilPositions#1, _exfilPositions#1],
+  [_boss distance _exfilPositions#2, _exfilPositions#2],
+  [_boss distance _exfilPositions#3, _exfilPositions#3]
+];
+
+_exfilPositionsSorted sort true;
+_exfilPositionsSorted deleteRange [0,1];
+
 
 missionNamespace setVariable ["hoppers_exfilPositions", _exfilPositions, true];
 
@@ -23,7 +37,7 @@ missionNamespace setVariable ["hoppers_exfilPositions", _exfilPositions, true];
     -1,
     false
   ] call BIS_fnc_taskCreate;
-} forEach _exfilPositions;
+} forEach _exfilPositionsSorted;
 
 {
   private _taskID = format ["Hoppers_Bomb%1", _forEachIndex];
